@@ -1,29 +1,55 @@
-.name-image-container {
-  background-color: orange;
+body {
   width: 70%;
   margin-inline: auto;
   margin-top: 5%;
+}
+.name-image-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .myPicture {
-  width:  195px;
-  height: 195px;
+  width:  170px;
+  height: 170px;
   object-fit: cover;
   border-radius: 50%;
 }
 
 .my-name {
   font-size: 2.5em;
+  font-weight: bolder;
   letter-spacing: 0.02in;
 }
 
 .name-links {
   padding-left: 2%;
+  padding-bottom: 3em;
+}
+
+.hr-line {
+  height: 0.25em;
+  width: 20%;
+  margin: 0;
+  margin-top: -1.5em;
+  background-color:#4b6cc1;
+  border: none;
 }
 
 .details-first-container {
   display: flex;
-  gap: 5%;
+  gap: 15%;
+  margin-top: 2em;
+}
+
+.top-links {
+  text-decoration: none;
+  color: #5e5e5e;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.top-links:hover {
+  color: #4b6cc1;
+  cursor: pointer;
 }
