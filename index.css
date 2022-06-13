@@ -53,3 +53,26 @@ body {
   color: #4b6cc1;
   cursor: pointer;
 }
+
+.personal-details {
+  background-color: #f1f8fa;
+}
+
+.heading-section-2 {
+  width: 95%;
+  margin-inline: auto;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.greeting-heading {
+  font-size: 2.5em;
+}
+
+.about-me {
+  font-size: 1.5em;
+}
+
+.social-links {
+  font-size: 1.5em;
+}
